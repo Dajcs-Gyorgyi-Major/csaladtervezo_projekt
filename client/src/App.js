@@ -1,7 +1,8 @@
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import Home from './Pages/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
-import Felmeres from "./Pages/Felmeres/Felmeres"
+import Vizsgalat from "./Pages/Vizsgalat/Vizsgalat"
+
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
      <BrowserRouter>
      <Navbar/>
      <Routes>
-      <Route path="/felmeres" element={<Felmeres/>}/>
+      <Route path="/vizsgalat" element={<Vizsgalat/>}/>
       <Route path="/" element={<Home/>}/>
      </Routes>
      </BrowserRouter>
