@@ -1,1 +1,0 @@
-mongodb+srv://pepe:pepe@project.bzn1r3v.mongodb.net/tesztek
