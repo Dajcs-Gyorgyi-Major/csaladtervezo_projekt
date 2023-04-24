@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import './Doctor.css'
 
 const Doctor = () => {
     const [doctors, setDoctors] = useState([]);
@@ -27,16 +28,19 @@ const Doctor = () => {
     }, []);
     return (
         <div>
+            <div className='container'>
+            <div className='doctor-kep0'/>
             <h1>Kollégáink</h1>
-            <ul>
+            <div className='docs'>
                 {doctors.map((doctor) => (
-                    <div key={doctor._id}>
+                    <div key={doctor._id} className='docs-item'>
                         <img src={doctor.image} alt="doki" />
-                        <p>Név: {doctor.name}</p>
-                        <p>Végzettség: {doctor.skills}</p>
+                        <p><b>Név:</b> {doctor.name}</p>
+                        <p><b>Végzettség:</b> {doctor.skill}</p>
                     </div>
                 ))}
-            </ul>
+            </div>
+            </div>
         </div>
     );
 };

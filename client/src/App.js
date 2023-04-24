@@ -12,6 +12,9 @@ import './App.css';
 function App() {
     return (
         <div className="App">
+        
+
+        
             <BrowserRouter>
                 <Navbar />
                 <Routes>
@@ -22,6 +25,7 @@ function App() {
                     <Route path="/osszefoglalo" element={<Osszefoglalo />} />
                     <Route path="/" element={<Home />} />
                 </Routes>
+               
                 <Footer />
             </BrowserRouter>
         </div>

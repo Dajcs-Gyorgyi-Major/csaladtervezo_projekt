@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import './EgyediTeszt.css';
 
 const EgyediTeszt = () => {
     const adat = localStorage.getItem('egyediTeszt');
@@ -61,10 +62,16 @@ const EgyediTeszt = () => {
     };
     return (
         <div>
+            <div className='egyediteszt'>
             <div className="container">
+                
+                <div className="kep0" />
+                <div className='leiras'>
                 <h1>{teszt.title}</h1>
-                <h1>{teszt.description}</h1>
-                <h3>{teszt.price} Ft</h3>
+                <p>{teszt.description}</p>
+                <h3>Laborvizsgálat ára: {teszt.price} Ft</h3>
+            </div>
+            <div className='vegez'>
                 <p>Tesztet végző kollégák:</p>
                 <ul>
                     {teszt.doctor.map((elem) => (
@@ -115,6 +122,8 @@ const EgyediTeszt = () => {
                         </li>
                     ))}
                 </ul>
+                </div>
+            </div>
             </div>
         </div>
     );

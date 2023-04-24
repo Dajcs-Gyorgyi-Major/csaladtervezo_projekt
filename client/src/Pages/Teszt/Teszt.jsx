@@ -97,6 +97,7 @@ const Teszt = () => {
                             <div className="gentest-item-info">
                                 <h3>{item.title}</h3>
                                 <p>{item.price} Ft</p>
+                                <div className='gomb'>
                                 <Link
                                     to={{
                                         pathname: '/egyediteszt/' + item._id,
@@ -105,6 +106,7 @@ const Teszt = () => {
                                 >
                                     Ajánlat Megtekintése
                                 </Link>
+                                </div>
                             </div>
                         </div>
                     ))}

@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import './Osszefoglalo.css';
 
 const Osszefoglalo = () => {
     const datum = localStorage.getItem('datum');
@@ -48,16 +49,21 @@ const Osszefoglalo = () => {
 
     return (
         <div>
+            <div className='container-ossz'>
+            <div className='ossz-kep0'/>
+            <div className='osszefoglalo-h'>
+            <div className='osszefoglalo'>
             <h1>Hello {name}!</h1>
-            <h1>Az ön által választott teszt</h1>
-            <p>{vizsgalat}</p>
-            <p>{doktor}</p>
+            <p><b>Az ön által választott teszt:</b> {vizsgalat}</p>
+            <p><b>Orvos:</b> {doktor}</p>
             <img src={doktorkep} alt="doki" />
             <p>{datum}</p>
             <p>
                 Köszönjük a foglalását! Kollégánk hamarosan keresni fogja a
                 részletekkel kapcsolatban!
             </p>
+            </div>
+            </div>
             <h2>Eddigi vizsgálatok</h2>
             {exams.length === 0 ? (
                 <h1>Eddig még nem volt teszt!</h1>
@@ -71,6 +77,7 @@ const Osszefoglalo = () => {
                     </div>
                 ))
             )}
+            </div>
         </div>
     );
 };
