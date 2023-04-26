@@ -15,7 +15,13 @@ const EgyediTeszt = () => {
         let email = ugyfel[2].value;
         let datum = ugyfel[3].value;
         // let stDatum = datum.toString();
+
         console.log(teszt._id, id, name, phone, email, datum);
+
+
+        //console.log(datum);
+
+        let mai;
 
         const feltolt = async () => {
             try {

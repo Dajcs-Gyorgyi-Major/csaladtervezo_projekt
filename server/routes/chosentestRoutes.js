@@ -12,7 +12,7 @@ router.get('/', async (req, res) => {
             .populate('examination');
         const doctors = await Doctor.find();
         const examinations = await Examination.find();
-        // console.log(chosenTest);
+        console.log(chosenTest);
         res.status(200).render('chosentest', {
             chosenTest,
             doctors,
