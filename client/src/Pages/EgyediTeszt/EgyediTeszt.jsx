@@ -21,7 +21,7 @@ const EgyediTeszt = () => {
 
         //console.log(datum);
 
-        let mai;
+        
 
         const feltolt = async () => {
             try {

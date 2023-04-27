@@ -4,8 +4,8 @@ import "./Home.css";
 const Home = () => {
   return (
     <div>
+      <div className='kep1'/>
       <div className='container'>
-        <div className='kep1'/>
         <div>
           <h1>Mi az a genetika?</h1>
           <p>A genetika röviden az öröklődéssel foglalkozó tudományág, vagyis amit öröklünk szüleinktől, nagyszüleinktől. Meghatározza az egyénre jellemző tulajdonságokat pl. szem és a hajszín, valamint a bennünk lévő örökítő anyag -, más néven a DNS vizsgálatai alapján megismerhető a betegségekre való hajlam, illetve egyes betegségek is kiolvashatóak. Az utóbbi években a genetikai vizsgálatokkal, az un. emberi test géntérképezésével hatalmas ugrást értünk el az egészség megelőzésében, de a gyógyításban is. Ennek köszönhetően számos betegségre derülhetett fény, azokat pedig a megfelelő módon kezelni vagy megelőzni lehet. </p>

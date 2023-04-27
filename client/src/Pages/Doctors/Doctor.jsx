@@ -28,9 +28,13 @@ const Doctor = () => {
     }, []);
     return (
         <div>
-            <div className='container'>
+            
             <div className='doctor-kep0'/>
-            <h1>Kollégáink</h1>
+            <div className='container'>
+            <div className='szoveg'>
+                <h1>Kollégáink</h1>
+                <p>Orvosaink elhivatottak és magasan képzettek, mindannyian elkötelezettek az Ön egészségének javítása érdekében. Széleskörű tapasztalattal rendelkeznek és folyamatosan képzik magukat, hogy mindig a legújabb és legjobb kezelési lehetőségeket kínálhassák. Az orvosaink kölünböző szakterületen végeztek, így garantáltan megtalálja a megfelelő szakembert az Ön számára. Tekintse át orvosaink profiljait, hogy jobban megismerje őket és bízalmat építsen velük szemben. Bármilyen egészségügyi problémája is van, az orvosaink minden esetben készséggel állnak rendelkezésére, hogy segítsenek Önnek a gyógyulás útján.</p>
+            </div>
             <div className='docs'>
                 {doctors.map((doctor) => (
                     <div key={doctor._id} className='docs-item'>

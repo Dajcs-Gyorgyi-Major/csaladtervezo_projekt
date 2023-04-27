@@ -7,7 +7,7 @@ const Vizsgalat = () => {
       <div className='container'>
         <div className='kep2'/>
         <div className='valami'><h2>Éhgyomri vérvétel</h2></div>
-        <div className='szoveg'>
+        <div className='szoveg1'>
           <p>A vérvizsgálatok többségéhez általában 12 órás éhezés utáni, éhgyomri minta szükséges, emiatt a vérvételt a reggeli órákban javasoljuk. Táplálékfelvétel egyes laboratóriumi vizsgálatok eredményét jelentősen befolyásolja – pl.: vércukor, terheléses vércukor, vérzsírok (koleszterin, triglicerid), májenzimek stb. Éhgyomri vérvétel előtt vizet fogyaszthat (javasolt is), alkoholt, üdítőt, kávét, ételt nem. Javasolt legkésőbbi időpont 11 óra, ezen túl már éhezési paraméterekről beszélünk, melyek eltérhetnek.</p>
           <ul>
             <li>ha Önnek éhgyomri vérvétele lesz, nagyon fontos, hogy mindenre kellő figyelmet fordítson, mert nem csak az étkezés, de számos egyéb tényező is nagy mértékben befolyásolhatja a kapott eredményeket!</li>
