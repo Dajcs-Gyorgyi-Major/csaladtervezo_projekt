@@ -59,6 +59,15 @@
     margin-right: 10px;
     margin-top: 20px;
   }
+
+  .logo {
+    margin: 20px;
+    -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+    transition: color 1s; /* For modern browsers */
+    }
+  .logo:hover {
+    color: #368bf4;
+  }
   
   @keyframes slideInFromTopNavbar {
     0% {
