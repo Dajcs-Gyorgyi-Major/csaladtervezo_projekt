@@ -1,0 +1,66 @@
+.kep9{
+    height: 3vh;
+}
+.rolunk-kep{
+    height: 25vh;
+    min-height: 100px;
+    background-image: linear-gradient(90deg,rgb(90, 77, 77),rgb(94, 94, 255));
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+}
+.rolunk-kep h1{
+    text-align: left;
+    padding-top: 70px;
+    padding-left: 170px;
+    font-size: 400%;
+}
+.rolunk-t{
+    display: flex;
+    flex-direction: row;
+}
+.jobb-t{
+    float:right;
+    width: 50%;
+}
+
+.bal-t1{
+    float: left;
+    width: 50%;
+    
+}
+
+.bal-t1-1{
+    background-color: rgba(75, 80, 80, 0.8);
+    padding: 10px;
+    margin: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 1px solid #000;
+    border-radius: 2%;
+}
+.bal-t1-2{
+    background-color: rgba(75, 80, 80, 0.8);
+    padding: 10px;
+    margin: 80px;
+    margin-top: 15px;
+    border: 1px solid #000;
+    border-radius: 2%; 
+}
+
+.kep-rolunk{
+    height: 50vh;
+    min-height: 100px;
+    background-image: url("../../img/vdr.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    border-radius: 2%;
+}
+.egesz{
+    margin-top: 30px;
+    background-color: rgba(75, 80, 80, 0.8);
+    padding: 20px;
+}

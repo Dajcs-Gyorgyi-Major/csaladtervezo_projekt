@@ -8,6 +8,7 @@ import Doctor from './Pages/Doctors/Doctor';
 import EgyediTeszt from './Pages/EgyediTeszt/EgyediTeszt';
 import Osszefoglalo from './Pages/Osszefoglalo/Osszefoglalo';
 import './App.css';
+import Rolunk from './Pages/Rolunk/Rolunk';
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
             <BrowserRouter>
                 <Navbar />
                 <Routes>
+                    <Route path="/rolunk" element={<Rolunk/>} />
                     <Route path="/vizsgalat" element={<Vizsgalat />} />
                     <Route path="/teszt" element={<Teszt />} />
                     <Route path="/egyediteszt/:id" element={<EgyediTeszt />} />

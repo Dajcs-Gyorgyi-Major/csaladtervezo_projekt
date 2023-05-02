@@ -39,6 +39,7 @@ const Teszt = () => {
     return (
         <div>
             <div className="container-t">
+                <div className='container'>
                 <div className="kep3" />
                 <div className="kinek">
                     <h2>Kinek ajánlott?</h2>
@@ -111,6 +112,8 @@ const Teszt = () => {
                         </div>
                     ))}
                 </div>
+                </div>
+
             </div>
         </div>
     );

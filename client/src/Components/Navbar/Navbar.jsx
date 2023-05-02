@@ -13,7 +13,7 @@ const Navbar = () => {
                 </div>
                 <div className="left">
                     <Link to="/">Home</Link>
-                    <Link to="/vizsgalat">Előkészülés vizsgálatra</Link>
+                    <Link to="/rolunk">Rólunk</Link>
                     <Link to="/teszt">Genetikai tesztek</Link>
                     <Link to="/doctor">Kollégáink</Link>
                 </div>
