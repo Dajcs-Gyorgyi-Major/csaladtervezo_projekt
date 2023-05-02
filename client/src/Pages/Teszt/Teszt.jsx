@@ -41,6 +41,7 @@ const Teszt = () => {
             <div className="container-t">
                 <div className='container'>
                 <div className="kep3" />
+                <div className='teszt-szoveg'>
                 <div className="kinek">
                     <h2>Kinek ajánlott?</h2>
                 </div>
@@ -86,6 +87,7 @@ const Teszt = () => {
                         kellőképp. Elősegítjük az életmóddal: dohányzás,
                         stressz, nem megfelelő élelmiszerek fogyasztása...stb.
                     </p>
+                </div>
                 </div>
                 <div className="gentest-h2">
                     <h2>Genetika, Génteszt</h2>
