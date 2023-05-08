@@ -11,6 +11,9 @@ const Footer = () => {
                         06-1-999-9999
                     </p>
                 </div>
+                <div>
+                    <p><i>"Jobb megelőzni, mint gyógyítani."</i></p>
+                </div>
             </div>
         </footer>
     );
