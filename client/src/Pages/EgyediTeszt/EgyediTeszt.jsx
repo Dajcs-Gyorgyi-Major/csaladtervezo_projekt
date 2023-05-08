@@ -88,56 +88,75 @@ const EgyediTeszt = () => {
                 <h3>Laborvizsgálat ára: {teszt.price} Ft</h3>
             </div>
             <div className='vegez'>
-                <p>Tesztet végző kollégák:</p>
-                <ul>
-                    {teszt.doctor.map((elem) => (
-                        <li className="like" key={elem._id}>
-                            <img
-                                className="imgkosar"
-                                src={elem.image}
-                                alt="kép"
-                            />
-                            <p className="ppp">{elem.name}</p>
-                            <p>{elem.skill}</p>
-                            <form>
-                                <label htmlFor="name">Név: </label>
-                                <input
-                                    id="name"
-                                    type="text"
-                                    name="name"
-                                    className={elem._id}
-                                />
-                                <label htmlFor="phone">Telefonszám: </label>
-                                <input
-                                    id="phone"
-                                    type="text"
-                                    name="phone"
-                                    className={elem._id}
-                                />
-                                <label htmlFor="email">E-mail: </label>
-                                <input
-                                    id="email"
-                                    type="text"
-                                    name="email"
-                                    className={elem._id}
-                                />
-                                <label htmlFor="datum">Időpont: </label>
-                                <input
-                                    id="datum"
-                                    type="datetime-local"
-                                    name="datum"
-                                    className={elem._id}
-                                />
-                            </form>
-                            <button
-                                className="kival"
-                                onClick={() => kivalaszt(elem._id)}
-                            >
-                                Kiválaszt
-                            </button>
-                        </li>
-                    ))}
-                </ul>
+                <h2>Tesztet végző kollégák:</h2>
+                
+                  <ul>
+                      {teszt.doctor.map((elem) => (
+                          <li className="like" key={elem._id}>
+                            <div className='teszt-t'>
+                              <div className='teszt-bal'>
+                              <img
+                                  className="imgkosar"
+                                  src={elem.image}
+                                  alt="kép"
+                              />
+                              <p className="ppp">{elem.name}</p>
+                              <p>{elem.skill}</p>
+                            </div>
+                            <div className='teszt-jobb'>
+                              <form>
+                                <div className='nev'>
+                                  {/*<label htmlFor="name">Név: </label>*/}
+                                  <input
+                                      id="name"
+                                      type="text"
+                                      name="name"
+                                      placeholder='Név'
+                                      className={elem._id}
+                                  />
+                                </div>
+                                <div className='tel'>
+                                  {/*<label htmlFor="phone">Telefonszám: </label>*/}
+                                  <input
+                                      id="phone"
+                                      type="text"
+                                      name="phone"
+                                      placeholder='Telefonszám'
+                                      className={elem._id}
+                                  />
+                                </div>
+                                <div className='email'>
+                                  {/*<label htmlFor="email">E-mail: </label> */}                                
+                                  <input
+                                      id="email"
+                                      type="text"
+                                      name="email"
+                                      placeholder='E-mail'
+                                      className={elem._id}
+                                  />
+                                </div>
+                                <div className='idopont'>
+                                  <label htmlFor="datum">Időpont: </label>
+                                  <input
+                                      id="datum"
+                                      type="datetime-local"
+                                      name="datum"
+                                      className={elem._id}
+                                  />
+                                </div>
+                              </form>
+                              <button
+                                  className="kival"
+                                  onClick={() => kivalaszt(elem._id)}
+                              >
+                                  Foglalás
+                              </button>
+                              </div>
+                              </div>
+                          </li>
+                      ))}
+                  </ul>
+
                 </div>
             </div>
             </div>

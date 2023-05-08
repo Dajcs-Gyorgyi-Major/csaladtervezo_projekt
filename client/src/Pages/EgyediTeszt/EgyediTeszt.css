@@ -38,7 +38,146 @@
     margin-left: 200px;
     margin-right: 200px;
     padding-bottom: 5px;
+    padding:10px;
     
     
     
 }
+.vegez ul{
+    list-style-type: none;
+}
+
+
+.teszt-t{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    border-bottom: 1px solid;
+}
+
+.teszt-bal{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.teszt-jobb{
+    float: right;
+    width: 50%;
+    text-align: justify;
+}
+
+.imgkosar{
+    height: auto;
+    border-radius: 50%;
+    width: 60%;
+}
+
+.kival {
+    margin-top: 15px;
+    font-size:17px;
+    width: 110px;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #265bbd;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.kival:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.kival:active {
+    color: #25418d
+}
+
+.kival:active:after {
+    background: transparent;
+}
+
+.kival:hover:before {
+    opacity: 1;
+}
+
+.kival:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #375cd6;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+.email{
+    border-radius: 50%;
+}
+input {
+
+
+    border: none;
+    width: 200px; 
+    
+    
+  }
+
+  #name{
+    width: 250px;
+    height: 15px;
+    font-size: 15px;
+  }
+  #email{
+    font-size: 15px;
+    width: 250px;
+  }
+  #phone{
+    font-size: 15px;
+    width: 250px;
+  }
+  #datum{
+    width: 176px;
+  }
+  input[type=text]{
+    padding: 10px;
+    box-shadow: 0 0 15px 4px;
+    border-radius: 20px;
+  }
+  input[type=datetime-local]{
+    padding: 10px;
+    box-shadow: 0 0 15px 4px;
+    border-radius: 20px;
+  }
+  .tel{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .idopont{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }

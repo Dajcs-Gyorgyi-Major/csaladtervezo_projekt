@@ -67,7 +67,7 @@
 }
 
 .teszt-szoveg{
-  background-color: rgba(75, 80, 80, 0.9);
+  background-color: rgba(38, 49, 49, 0.9);
   border: solid 1px #000;
   border-radius: 2%;
   color: white;
@@ -78,4 +78,8 @@
 }
 .teszt-szoveg p{
   text-indent: 15px;
+}
+
+.gomb{
+  padding-bottom: 4px;
 }

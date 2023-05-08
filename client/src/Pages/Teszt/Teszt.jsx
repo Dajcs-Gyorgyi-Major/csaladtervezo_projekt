@@ -107,7 +107,7 @@ const Teszt = () => {
                                     }}
                                     onClick={() => kivalaszt(item._id)}
                                 >
-                                    Ajánlat Megtekintése
+                                    Bővebben
                                 </Link>
                                 </div>
                             </div>

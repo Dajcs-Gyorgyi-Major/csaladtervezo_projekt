@@ -67,10 +67,10 @@ body{
 .kont2{
     display: flex;
     flex-direction: row;
-    background-color: rgba(75, 80, 80, 0.8);
+    /*background-color: rgba(75, 80, 80, 0.8);
     border-radius: 2%;
-    border: solid 1px #000;
-    margin-top: 30px;
+    border: solid 1px #000;*/
+    margin-top: 10px;
     color:white;
     padding: 20px;
     margin-bottom: 30px;
@@ -93,4 +93,24 @@ body{
 
 .intro h1{
     text-align: left;
+}
+
+.Kont2{
+    background-color: rgba(75, 80, 80, 0.8);
+    border: solid 1px #000;
+    border-radius: 2%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.Kont2 h1{
+    color: white;
+    text-align: center;
+}
+.ehgy-sz{
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.n-ehgy{
+    padding-left: 20px;
+    padding-right: 30px;
 }
