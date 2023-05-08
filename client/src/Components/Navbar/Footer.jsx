@@ -8,7 +8,7 @@ const Footer = () => {
                 <div>
                     <p>
                         PrivateLab 2023 | Magánlaboratórium Szegeden |
-                        06-1-999-9999
+                        06-1-999-9999 | privatelab@gmail.com
                     </p>
                 </div>
                 <div>
